@@ -95,7 +95,9 @@ def tabela_vendas_categoria(dados):
     
     return vendas_categoria
        
-def dashboard(dados, fig_mapa_receita, fig_receita_mensal, fig_receita_estados, fig_receita_categorias, vendedores, vendas_estado, vendas_mensal, vendas_categoria):
+def dashboard( dados, fig_mapa_receita, fig_receita_mensal, fig_receita_estados, fig_receita_categorias, vendedores, vendas_estado, vendas_mensal, vendas_categoria):
+    
+    
     st.title('Dashboard de vendas :shopping_trolley:')
 
     aba_1, aba_2, aba_3 = st.tabs(['Receita', 'Quantidade de vendas', 'Vendedores'])
